@@ -1,0 +1,2 @@
+body{margin:0;padding:0}#container{align-items:stretch;display:flex;flex-direction:column;justify-content:space-between}#header{background-color:#9c2153;color:#fff;display:flex;height:40px;width:100%}#header h1{align-items:center;display:flex;padding-left:20px}#content{flex-direction:row;gap:80px;padding-top:12px}#content,#main{align-items:stretch;display:flex}#main{flex-direction:column;gap:10px}#tipbar{background-color:#faf9f8;width:360px}
+/*# sourceMappingURL=main.251d0419.css.map*/
