@@ -1,6 +1,7 @@
 {
   "name": "starter-create-book-webapp-react",
   "version": "0.1.0",
+  "node":"18.0",
   "private": true,
   "dependencies": {
     "@fluentui/react-components": "^9.15.6",
