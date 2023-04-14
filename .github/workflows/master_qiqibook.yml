@@ -56,7 +56,7 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           
-          publish-profile: 'QIQIBOOK_WEB_APP'
+          publish-profile: ${{ secrets.QIQIBOOK_WEB_APP }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   
