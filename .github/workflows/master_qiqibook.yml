@@ -53,4 +53,4 @@ jobs:
           app-name: 'qiqibook'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A0C59C193EBF46458C611B8FD91C4F7F }}
-          package: ./build
+          package: .
