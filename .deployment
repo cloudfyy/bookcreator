@@ -1,0 +1,2 @@
+[config]
+SCM_EXCLUDE_FILES=node_modules/**
