@@ -30,6 +30,8 @@ jobs:
       - name: list output
         run: |
           ls
+      - name: Zip command help
+        run: zip --help
       - name: Zip artifact for deployment
         run: cd build && zip -r ../release.zip -i ./*  && cd ..
       - name: show zip file folder structure
