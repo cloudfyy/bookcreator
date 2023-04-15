@@ -33,7 +33,7 @@ jobs:
       - name: Zip command help
         run: zip --help
       - name: Zip artifact for deployment
-        run: cd build && zip -r ../release.zip -i ./*  && cd ..
+        run: cd build && zip -r ../release.zip ./*  && cd ..
       - name: show zip file folder structure
         run: unzip -l release.zip
       - name: Upload artifact for deployment job
