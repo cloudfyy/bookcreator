@@ -27,15 +27,10 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-      - name: list output
-        run: |
-          ls
-      - name: Zip command help
-        run: zip --help
+      
       - name: Zip artifact for deployment
         run: cd build && zip -r ../release.zip ./*  && cd ..
-      - name: show zip file folder structure
-        run: unzip -l release.zip
+      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
