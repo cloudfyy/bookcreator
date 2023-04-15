@@ -31,7 +31,9 @@ jobs:
         run: |
           ls
       - name: Zip artifact for deployment
-        run: zip release.zip ./build/* -r 
+        run: cd build && zip ../release.zip ./build/* -r && cd ..
+      - name: show zip file folder structure
+        run: unzip -l release.zip
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
